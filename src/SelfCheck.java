@@ -96,11 +96,6 @@ public class SelfCheck
 
         testStarString();
         testPrintSequence();
-        int[] array = new int[]{5, 2, 4, 8, 3, 2, 5, 8, 4, 1, 9, 9, 0, 4, 7, 3, 2};
-
-        for(int n : ProblemC.mergeSort(array)){
-            System.out.print(n);
-        }
 
         System.out.println("Which mystery would you like to check?");
         System.out.println("(1-5, or \"a\" for all)");
